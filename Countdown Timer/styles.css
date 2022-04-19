@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./newYear.jpg);
+    font-family: 'Satisfy';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container{
+    padding: 20px;
+    background: rgb(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.container h1{
+    color: #fbff00;
+    text-shadow: 3px 3px 3px black;
+    font-weight: normal;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.number{
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.name-time{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.days{
+    color: #ff7f11 ;
+}
+
+.hours{
+    color: #ee4042;
+}
+.mins{
+    color: #2f5bfc;
+}
+
+.seconds{
+    color: #20bf55;
+}
+
+
